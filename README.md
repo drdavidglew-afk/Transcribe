@@ -24,11 +24,11 @@ Spotify-only shows are protected (DRM), so they can't be downloaded or transcrib
 
 **If a link can't be fetched** (the video is private, needs a sign-in, or the site blocks downloads), the app asks you to download the video to your phone and then tap **Choose file**. You can also share a video from Gallery or Files straight to VidScribe.
 
-## Get the APK (no computer needed)
+## Get the APK
 
-1. Put this folder in a GitHub repository.
-2. GitHub builds the app automatically, using the included `.github/workflows/build.yml`. Open the repo's **Actions** tab, select the latest run, and download **VidScribe-apk** from the bottom of the page.
-3. Unzip the download and open `app-release.apk` on your phone. Allow "install unknown apps" if Android asks.
+Download it on your phone from https://github.com/drdavidglew-afk/Transcribe/releases/latest by tapping **VidScribe.apk**, then open it. Allow "install unknown apps" if Android asks.
+
+Each change pushed to `main` builds a new release automatically.
 
 If you use Android Studio instead: open this folder and press **Run**.
 
